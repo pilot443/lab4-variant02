@@ -1,3 +1,14 @@
+// Лабораторная работа 4. Вариант 2: wallpapercalc (обои)
+// В пакете реализовать функции:
+// 1. Perimeter(length, width float64) (float64, error)
+// 2. RollsNeeded(perimeter, height, rollWidth, rollLength float64) (int, error)
+// 3. AddExtraRolls(rolls *int, extra int) error
+// 4. FormatWallpaperReport(room string, rolls int, rollPrice float64) (string, error)
+// Вычислительные функции возвращают (значение, error), функция с указателем меняет значение,
+// строка отчёта собирается через fmt.Sprintf.
+// Имена экспортируемых функций с заглавной буквы, doc-комментарии перед package и функциями,
+// входные данные проверять и ошибки возвращать через fmt.Errorf.
+
 // Package wallpapercalc считает, сколько рулонов обоев нужно на комнату и сколько это стоит.
 package wallpapercalc
 
